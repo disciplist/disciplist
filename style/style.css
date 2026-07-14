@@ -199,12 +199,6 @@ h1 {
 .roblox svg {
   width: 21px;
   height: 21px;
-  transform: rotate(-15deg);
-  transform-origin: center;
-}
-
-.social-link:hover.roblox svg {
-  transform: rotate(-15deg) scale(1.08);
 }
 
 .music-toggle {
