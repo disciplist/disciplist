@@ -197,8 +197,14 @@ h1 {
 .roblox { --icon-color: #ffffff; }
 
 .roblox svg {
-  width: 19px;
-  height: 19px;
+  width: 21px;
+  height: 21px;
+  transform: rotate(-15deg);
+  transform-origin: center;
+}
+
+.social-link:hover.roblox svg {
+  transform: rotate(-15deg) scale(1.08);
 }
 
 .music-toggle {
